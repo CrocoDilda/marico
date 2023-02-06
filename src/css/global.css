@@ -245,6 +245,13 @@
 		border: 1px solid var(--ACTIVE_COLOR);
 		color: var(--ACTIVE_COLOR);
 	}
+	.common_title{
+		font-weight: 600;
+		font-size: 75px;
+		line-height: 112px;
+		color: var(--WHITE_COLOR);
+		text-align: center;
+	}
 	.container {
 	}
 
@@ -420,3 +427,36 @@ h1 span{
 	border-radius: 50%;
 	background: var(--GREEN_CIRCLE_COLOR);
 }
+
+
+.love-marico {
+	padding-top: 188px;
+	max-height: 271px;
+}
+.love-marico__list {
+	display: flex;
+	justify-content: space-around;
+}
+.love-marico__col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 64px;
+}
+.love-marico__text {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	color: var(--GRAY_TEXT_COLOR);
+}
+.love-marico__list-title {
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 52px;
+	color: var(--WHITE_COLOR);
+	}
+	.love-marico__list-title img{
+		margin-right: 8px;
+	}
