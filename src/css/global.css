@@ -12,6 +12,9 @@
 	--GREEN_CIRCLE_COLOR: #0FC65C;
 	--DARK_GREEN_CIRCLE_COLOR: #03451e;
 	--STEP_COLOR: #3D82F2;
+	--LOGO_COLOR: #326cf9;
+	--CIRCLES_GRAY_COLOR: #2D2D2D;
+	--HOMEPAGE_SQUARE_COLOR: #8B8B8B;
 }	
 
 /* Fonts */
@@ -253,6 +256,9 @@
 		color: var(--WHITE_COLOR);
 		text-align: center;
 	}
+	.common_blue-span{
+		color: var(--ACTIVE_COLOR);
+	}
 	.common__text{
 		font-weight: 400;
 		font-size: 30px;
@@ -300,6 +306,10 @@ header{
 	font-size: 37px;
 	font-weight: 800;
 	color: var(--WHITE_COLOR);
+	transition: .2s;
+}
+.header__logo_bold:hover{
+	color: var(--LOGO_COLOR);
 }
 .header__nav {
 	width: 400px;
@@ -492,4 +502,89 @@ h1 span{
 		margin-top: 34px;
 		width: 312px;
 		height: 76px;
+	}
+
+	/* homepage */
+	.homepage {
+		padding: 182px 0 0 184px;
+		min-height: 897px;
+		width: 100%;
+	}
+	.homepage__container {
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.homepage__content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.hompage__overhead{
+		font-weight: 500;
+		font-size: 30px;
+		color: var(--WHITE_COLOR);
+	}
+	.homepage__title{
+		margin-top: 80px;
+		max-width: 545px;
+		text-align: start;
+	}
+	.homepage__wrapper {
+	}
+	.homepage__text {
+		display: flex;
+		margin-top: 12px;
+		max-width: 691px;
+		font-weight: 400;
+		font-size: 23px;
+		line-height: 34px;
+		color: var(--WHITE_COLOR);
+	}
+	.homepage__text:first-child{
+		margin-top: 30px;
+	}
+	.homepage__number{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 24px 0 12px;
+		width: 15px;
+		z-index: 1;
+	}
+	.homepage__number::before{
+		content: "";
+		position: absolute;
+		width: 33px;
+		height: 33px;
+		background: var(--CIRCLES_GRAY_COLOR);
+		border-radius: 50%;
+		z-index: -1;
+	}
+	.homepage__buttons-wrapper{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 66px;
+		max-width: 436px;
+	}
+	.homepage__button{
+		width: 206px;
+		height: 64px;
+	}
+	.homepage__image {
+		position: relative;
+		justify-self: flex-end;
+		width: 820px;
+		height: 591px;
+		background: url(../images/man.webp) center center / auto no-repeat;
+	}
+	.homepage__image::after{
+		content: "";
+		position: absolute;
+		right: 192px;
+		top: 590.5px;
+		width: 309px;
+		height: 123px;
+		background: var(--HOMEPAGE_SQUARE_COLOR);
 	}
