@@ -15,6 +15,9 @@
 	--LOGO_COLOR: #326cf9;
 	--CIRCLES_GRAY_COLOR: #2D2D2D;
 	--HOMEPAGE_SQUARE_COLOR: #8B8B8B;
+	--COLUMNS_COLOR: #0D0D0D;
+	--GREEN_COLUMNS_COLOR: #0FC65C;
+	--GRAY_COLOMNS_COLOR: #919191;
 }	
 
 /* Fonts */
@@ -267,6 +270,7 @@
 		color: var(--GRAY_TEXT_COLOR);
 	}
 	.step{
+		text-align: center;
 		font-weight: 600;
 		font-size: 25px;
 		line-height: 38px;
@@ -366,6 +370,7 @@ header{
 	font-weight: 500;
 	font-size: 20px;
 	color: var(--GRAY_TEXT_COLOR);
+	transition: .2s;
 }
 .header__login:hover{
 	color: var(	--ACTIVE_COLOR);
@@ -530,8 +535,6 @@ h1 span{
 		max-width: 545px;
 		text-align: start;
 	}
-	.homepage__wrapper {
-	}
 	.homepage__text {
 		display: flex;
 		margin-top: 12px;
@@ -587,4 +590,57 @@ h1 span{
 		width: 309px;
 		height: 123px;
 		background: var(--HOMEPAGE_SQUARE_COLOR);
+	}
+
+	/* share-homepage */
+	.share-homepage {
+		padding-top: 71px;
+		min-height: 1296px;
+	}
+	.share-homepage__container {
+	}
+	.share-homepage__description{
+		margin: 0 auto;
+		max-width: 886px;
+	}
+	.share-homepage__wrapper {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 176px;
+	}
+	.share-homepage__item{
+		padding: 33px 0 0 45px;	
+		width: 854px;
+		height: 666px;
+		background: var(--COLUMNS_COLOR);
+	}
+	.share-homepage__phone{
+		background: url(../images/phone.svg) 66px 100% / 109% auto no-repeat, var(--COLUMNS_COLOR);
+	}
+	.share-homepage__overhead {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 45px;
+		color: var(--GREEN_COLUMNS_COLOR);
+	}
+	.share-homepage__title {
+		font-weight: 600;
+		font-size: 80px;
+		line-height: 120px;
+		COLOR: var(--GRAY_COLOMNS_COLOR);
+		width: 626px;
+	}
+	.share-homepage__title_small{
+		max-width: 415px;
+	}
+	.share-homepage__title span{
+		color: var(--WHITE_COLOR);
+		
+	}
+	.button_active {
+	}
+	.share-homepage__button {
+		margin: 49px auto 0 auto;
+		width: 283px;
+		height: 74px;
 	}
