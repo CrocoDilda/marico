@@ -167,39 +167,6 @@ h1 span{
 	height: 77px;
 }
 
-.hero__supbutton_text {
-	display: flex;
-	align-items: center;
-	margin-top: 21px;
-	font-weight: 400;
-	font-size: 25px;
-	text-align: center;
-	color: var(--color-gray_text);
-}
-
-.green-circle_wrap {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-right: 10px;
-	width: 29px;
-	height: 29px;
-	border-radius: 50%;
-	background: var(--color-dark-green_circles);
-}
-
-.hero__supbutton_bold{
-	margin-right: 9px;
-	font-weight: 700;
-	color: var(--color-white);
-}
-
-.green-circle {
-	width: 17px;
-	height: 17px;
-	border-radius: 50%;
-	background: var(--color-green_circles);
-}
 
 /* love-marico */
 .love-marico {
@@ -328,8 +295,43 @@ h1 span{
 .block-and-image-2__image{
 	background: url(../images/blackpink.webp) center center / auto no-repeat;
 }
+
 .block-and-image__title_2{
 	margin-top: 80px;
 	max-width: 800px;
 	text-align: start;
+}
+
+/* expert-opinion  */
+.expert-opinion {
+	padding-top: 99px;
+	width: 100%;
+}
+
+.expert-option__image {
+	display: block;
+	margin: 52px auto 0 auto;
+	width: 95vw;
+	height: 24vw;
+	background: url(../images/comment.webp) center center / 100% 100% no-repeat;
+
+}
+
+/* achievements */
+.achievements {
+	display: flex;
+	align-items: center;
+	margin-top: 188px;
+	width: 100%;
+	height: 35vw;
+	background: url(../images/avatars.webp)center center / 100% 100% no-repeat;
+}
+.achievements__title {
+	display: block;
+	margin: 0 auto;
+	max-width: 1236px;
+	font-size: 70px;
+}
+
+.achievements__title {
 }
