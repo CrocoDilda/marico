@@ -213,9 +213,12 @@
 	--color-blue_logo: #326cf9;
 	--color-gray_circles: #2D2D2D;
 	--color-gray_home-page_square: #8B8B8B;
-	--COLUMNS_COLOR: #0D0D0D;
-	--GREEN_COLUMNS_COLOR: #0FC65C;
-	--GRAY_COLOMNS_COLOR: #919191;
+	--columns-color: #0D0D0D;
+	--green_columns-color: #0FC65C;
+	--gray_columns-color: #919191;
+	--grau_subtitile-color: #B4B1B1;
+	--columns_bg-color: #131313;
+	--buttons_border-color: #4681E7;
 }	
 
 /* popular styles */
@@ -315,7 +318,6 @@
 	background: var(--color-green_circles);
 }
 
-
 body{
 	font-family: 'Poppins';
 	background: var(--color-black);
@@ -413,7 +415,7 @@ header{
 
 .header__link:hover .hover__stule {
 	background: var(--color-active);
-  }
+}
 
 .header__authorization {
 	display: flex;
@@ -477,6 +479,7 @@ footer {
 .footer__wrapper{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-top: 184px;
 	width: 100%;
 }
@@ -508,5 +511,9 @@ footer {
 }
 
 .footer__link:hover{
+	color: var(--color-active);
+}
+
+.active-link{
 	color: var(--color-active);
 }

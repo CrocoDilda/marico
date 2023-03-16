@@ -234,9 +234,6 @@ h1 span{
 	min-height: 1296px;
 }
 
-.share-homepage__container {
-}
-
 .share-homepage__description{
 	margin: 0 auto;
 	max-width: 886px;
@@ -252,25 +249,25 @@ h1 span{
 	padding: 33px 0 0 45px;	
 	width: 854px;
 	height: 666px;
-	background: var(--COLUMNS_COLOR);
+	background: var(--columns-color);
 }
 
 .share-homepage__phone{
-	background: url(../images/phone.svg) 66px 100% / 109% auto no-repeat, var(--COLUMNS_COLOR);
+	background: url(../images/phone.svg) 66px 100% / 109% auto no-repeat, var(--columns-color);
 }
 
 .share-homepage__overhead {
 	font-weight: 400;
 	font-size: 30px;
 	line-height: 45px;
-	color: var(--GREEN_COLUMNS_COLOR);
+	color: var(--green_columns-color);
 }
 
 .share-homepage__title {
 	font-weight: 600;
 	font-size: 80px;
 	line-height: 120px;
-	COLOR: var(--GRAY_COLOMNS_COLOR);
+	COLOR: var(--gray_columns-color);
 	width: 626px;
 }
 
@@ -280,9 +277,6 @@ h1 span{
 
 .share-homepage__title span{
 	color: var(--WHITE_COLOR);
-}
-
-.button_active {
 }
 
 .share-homepage__button {
@@ -333,5 +327,123 @@ h1 span{
 	font-size: 70px;
 }
 
-.achievements__title {
+/* PRICING PAGE */
+
+.pricing__main-title{
+	margin-top: 140px;
 }
+.pricing__list {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 123px;
+}
+.pricing__items {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 37px 34px 36px 36px;
+	width: 496px;
+	height: 989px;
+	background: var(--columns_bg-color);
+	border: 1px solid var(--grau_subtitile-color);
+	border-radius: 30px;
+}
+.active__item{
+	background: var(--color-active);
+
+}
+.pricing__header {
+}
+.pricing__explanation{
+
+}
+.pricint__title {
+	line-height: 75px;
+	font-weight: 600;
+	font-size: 50px;
+	color: var(--color-white);
+}
+.pricing__subtitle {
+	line-height: 42px;
+	font-size: 28px;
+	font-weight: 400;
+	color: var(--grau_subtitile-color);
+}
+.pricing__price {
+	line-height: 104px;
+	font-weight: 700;
+	font-size: 69px;
+	color: var(--color-white);
+}
+.pricing__price span {
+	line-height: 39px;
+	font-size: 26px;
+	font-weight: 400;
+	color: var(--grau_subtitile-color);
+}
+.pricing__text {
+	font-size: 27px;
+	line-height: 40px;
+	font-weight: 700;
+	color: var(--color-white);
+}
+.pricing__text span {
+	line-height: 42px;
+	font-size: 28px;
+	font-weight: 400;
+}
+.pricing__sending-letters {
+	margin-top: 45px;
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--grau_subtitile-color);
+}
+.pricing__starting {
+	margin: 55px 0 30px 0;
+	line-height: 42px;
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--color-white);
+}
+.pricing__chips li{
+	position: relative;
+	margin-top: 21px;
+	margin-left: 35px;
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--color-white);
+}
+.pricing__chips li::before{
+	content: "";
+	position: absolute;
+	left: -30px;
+	top: 8px;
+	background: url(../icons/check_mark.svg)0 0/ 20px 20px no-repeat, center;
+	height: 18px;
+	width: 25px;
+}
+
+.pricing__buttons {
+	width: 424.5px;
+	height: 101.5px;
+	border-color: var(--buttons_border-color);
+}
+.white__button{
+	background: var(--color-white);
+	color: var(--color-active);
+}
+.pricing__tariff {
+	line-height: 42px;
+	font-size: 28px;
+	font-weight: 400;
+	color: var(--grau_subtitile-color);
+}
+.white_color{
+	color: var(--color-white);
+}
+#white_color{
+	color: var(--color-white);
+}
+
